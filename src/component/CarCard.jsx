@@ -3,6 +3,7 @@ import { FaUserFriends, FaTachometerAlt, FaGasPump, FaFutbol } from "react-icons
 const CarCart = ({ car }) => {
     const { carImage, carName, drivingMode, fuelType, mileage, modelYear,
         price, sellQuantity } = car;
+
     return (
         <div className="rounded-2xl overflow-hidden shadow-xl bg-[#F1F4FB]" >
             <img className="w-full h-96 p-4" src={carImage} alt="Card Image" />

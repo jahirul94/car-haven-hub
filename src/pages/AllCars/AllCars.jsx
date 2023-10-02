@@ -1,38 +1,28 @@
-import { FaBackward, FaForward } from "react-icons/fa";
+import { useEffect, useState } from "react";
 import CarCart from "../../component/CarCard";
-import useCars from "../../hook/useCars";
-import { useDispatch } from "react-redux";
-import { setId } from "../../StateManagement/actions/PagenationsIdSlice";
+import { useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
+
 
 const AllCars = ({ allCars }) => {
-    const [cars] = useCars();
-    const totalPages = Math.ceil(cars?.length / 6)
+    const cars = useSelector(state => state?.allCars.allCars);
+    const { id } = useParams();
+    const [displayCars, setDisplayCars] = useState(allCars)
 
-    const pages = []
-    for (let i = 1; i <= totalPages; i++) {
-        pages.push(i)
-    }
+    useEffect(() => {
+        const startIndex = (id - 1) * 6;
+        const endIndex = startIndex + 6;
+        const displayedData = cars?.slice(startIndex, endIndex);
+        setDisplayCars(displayedData)
+    }, [cars, id])
 
-
-    const dispatch = useDispatch();
-    const handleLoadData = (id) => {
-        dispatch(setId(id))
-    }
 
     return (
         <div>
             <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {
-                    allCars?.map(car => <CarCart key={car._id} car={car}></CarCart>)
+                    displayCars?.map(car => <CarCart key={car._id} car={car}></CarCart>)
                 }
-            </div>
-            {/* pagination */}
-            <div className="pagination">
-                <FaBackward></FaBackward>
-                {
-                    pages?.map(page => <button className="pagination-button" onClick={() => handleLoadData(page)} key={page}>{page}</button>)
-                }
-                <FaForward></FaForward>
             </div>
         </div>
     );
