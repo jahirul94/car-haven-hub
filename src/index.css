@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* pagination  */
+
+.pagination {
+    @apply my-20 flex justify-center items-center space-x-4
+}
+
+.pagination-button {
+  @apply px-3 py-1 bg-green-700 text-white mx-2;
+}

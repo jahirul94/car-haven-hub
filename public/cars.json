@@ -1,0 +1,123 @@
+[
+    {
+      "carName": "Toyota Camry",
+      "modelYear": 2023,
+      "sellQuantity": 1500,
+      "fuelType": "Gasoline",
+      "carImage": "https://www.cnet.com/a/img/resize/4476006d1312ec379ee616af256b7596321b3742/hub/2021/08/20/257caf0a-f3a2-45db-9c70-d6ed50a85e6f/2021-toyota-camry-trd-ogi-1.jpg?auto=webp&fit=crop&height=900&width=1200",
+      "mileage": "28 mpg",
+      "drivingMode": "Front-wheel drive",
+      "price": 280,
+      "_id": 1,
+      "features": ["Bluetooth", "Backup Camera", "Cruise Control", "Keyless Entry"]
+    },
+    {
+      "carName": "Honda Civic",
+      "modelYear": 2023,
+      "sellQuantity": 1200,
+      "fuelType": "Gasoline",
+      "carImage": "https://imgd.aeplcdn.com/0x0/n/cw/ec/27074/civic-exterior-right-front-three-quarter-148155.jpeg?q=80",
+      "mileage": "32 mpg",
+      "drivingMode": "Front-wheel drive",
+      "price": 250,
+      "_id": 2,
+      "features": ["Apple CarPlay", "Android Auto", "Lane Keeping Assist"]
+    },
+    {
+      "carName": "Ford Mustang",
+      "modelYear": 2023,
+      "sellQuantity": 800,
+      "fuelType": "Gasoline",
+      "carImage": "https://hips.hearstapps.com/hmg-prod/images/4e9a7794-1663012415.jpg?resize=2048:*",
+      "mileage": "22 mpg",
+      "drivingMode": "Rear-wheel drive",
+      "price": 350,
+      "_id": 3,
+      "features": ["Leather Seats", "Sport Mode", "Premium Sound System"]
+    },
+    {
+      "carName": "Chevrolet Tahoe",
+      "modelYear": 2023,
+      "sellQuantity": 600,
+      "fuelType": "Gasoline",
+      "carImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2022_Chevrolet_Tahoe_RST%2C_front_3.7.22.jpg/1200px-2022_Chevrolet_Tahoe_RST%2C_front_3.7.22.jpg",
+      "mileage": "18 mpg",
+      "drivingMode": "Four-wheel drive",
+      "price": 450,
+      "_id": 4,
+      "features": ["Navigation System", "Third-Row Seating", "Towing Package"]
+    },
+    {
+      "carName": "Nissan Rogue",
+      "modelYear": 2023,
+      "sellQuantity": 1000,
+      "fuelType": "Gasoline",
+      "carImage": "https://www.motortrend.com/uploads/2023/02/2023-Nissan-Rogue-Platinum-AWD-17-e1677257988258.jpg?fit=around%7C875:492.1875",
+      "mileage": "30 mpg",
+      "drivingMode": "All-wheel drive",
+      "price": 270,
+      "_id": 5,
+      "features": ["Blind Spot Monitoring", "Panoramic Sunroof", "Heated Seats"]
+    },
+    {
+      "carName": "Tesla Model 3",
+      "modelYear": 2023,
+      "sellQuantity": 300,
+      "fuelType": "Electric",
+      "carImage": "https://media.ed.edmunds-media.com/tesla/model-3/2022/oem/2022_tesla_model-3_sedan_performance_fq_oem_1_1600.jpg",
+      "mileage": "250 miles (EPA est.)",
+      "drivingMode": "Rear-wheel drive",
+      "price": 450,
+      "_id": 6,
+      "features": ["Autopilot", "Full Self-Driving", "Electric Powertrain"]
+    },
+    {
+      "carName": "Subaru Outback",
+      "modelYear": 2023,
+      "sellQuantity": 700,
+      "fuelType": "Gasoline",
+      "carImage": "https://s7d1.scene7.com/is/image/scom/RDI_UAT_360e_032?$750p$",
+      "mileage": "26 mpg",
+      "drivingMode": "All-wheel drive",
+      "price": 320,
+      "_id": 7,
+      "features": ["Eyesight Driver Assist", "Roof Rails", "All-Weather Package"]
+    },
+    {
+      "carName": "BMW 3 Series",
+      "modelYear": 2023,
+      "sellQuantity": 400,
+      "fuelType": "Gasoline",
+      "carImage": "https://media.ed.edmunds-media.com/bmw/3-series/2023/oem/2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1600.jpg",
+      "mileage": "30 mpg",
+      "drivingMode": "Rear-wheel drive",
+      "price": 400,
+      "_id": 8,
+      "features": ["Sunroof", "Adaptive Cruise Control", "Wireless Charging"]
+    },
+    {
+      "carName": "Audi Q5",
+      "modelYear": 2023,
+      "sellQuantity": 500,
+      "fuelType": "Gasoline",
+      "carImage": "https://pictures.dealer.com/generic-aoa-OEM_VIN_STOCK_PHOTOS/39104cc7a83c85c311baaaff27e45159.jpg",
+      "mileage": "27 mpg",
+      "drivingMode": "All-wheel drive",
+      "price": 420,
+      "_id": 9,
+      "features": ["Virtual Cockpit", "Quattro AWD", "Bang & Olufsen Sound"]
+    },
+    {
+      "carName": "Jeep Wrangler",
+      "modelYear": 2023,
+      "sellQuantity": 900,
+      "fuelType": "Gasoline",
+      "carImage": "https://cdn.motor1.com/images/mgl/Oov0YM/s1/2022-jeep-wrangler-4xe-europe.jpg",
+      "mileage": "20 mpg",
+      "drivingMode": "Four-wheel drive",
+      "price": 380,
+      "_id": 10,
+      "features": ["Off-Road Capability", "Convertible Top", "Uconnect Infotainment"]
+    }
+  ]
+  
