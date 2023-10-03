@@ -12,7 +12,6 @@ const Pagination = () => {
     const totalPages = Math.ceil(cars?.length / 6)
     const navigate = useNavigate();
 
-
     useEffect(() => {
         const to = totalPages <= 5 ? totalPages : 5;
         const pages = []
@@ -20,8 +19,8 @@ const Pagination = () => {
             pages.push(i)
         }
         setVisiblePage(pages)
-    }, [])
-
+    }, [totalPages])
+  
     const handleLoadData = (id) => {
         navigate(`/${id}`)
     }

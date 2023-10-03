@@ -10,3 +10,11 @@ Currently, two official plugins are available:
 
 
 <!-- car-haven-hub.surge.sh -->
+
+ Live Link : https://car-haven-hub.surge.sh/
+
+ - all data comes from a json file that saved at public folder 
+ - the home page ar responsive
+ - the pagination are workable . if admin add enough data the number of pagination will update now 10 is hardcoded
+ - search field is workable 
+ - all brands category is workable 
