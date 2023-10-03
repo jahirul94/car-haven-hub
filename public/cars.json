@@ -1,8 +1,9 @@
 [
     {
       "carName": "Toyota Camry",
+      "brand": "Toyota",
       "modelYear": 2023,
-      "sellQuantity": 1500,
+      "totalSits": 4,
       "fuelType": "Gasoline",
       "carImage": "https://www.cnet.com/a/img/resize/4476006d1312ec379ee616af256b7596321b3742/hub/2021/08/20/257caf0a-f3a2-45db-9c70-d6ed50a85e6f/2021-toyota-camry-trd-ogi-1.jpg?auto=webp&fit=crop&height=900&width=1200",
       "mileage": "28 mpg",
@@ -13,8 +14,9 @@
     },
     {
       "carName": "Honda Civic",
+      "brand": "Honda",
       "modelYear": 2023,
-      "sellQuantity": 1200,
+      "totalSits": 6,
       "fuelType": "Gasoline",
       "carImage": "https://imgd.aeplcdn.com/0x0/n/cw/ec/27074/civic-exterior-right-front-three-quarter-148155.jpeg?q=80",
       "mileage": "32 mpg",
@@ -25,8 +27,9 @@
     },
     {
       "carName": "Ford Mustang",
+      "brand": "Toyota",
       "modelYear": 2023,
-      "sellQuantity": 800,
+      "totalSits": 6,
       "fuelType": "Gasoline",
       "carImage": "https://hips.hearstapps.com/hmg-prod/images/4e9a7794-1663012415.jpg?resize=2048:*",
       "mileage": "22 mpg",
@@ -37,8 +40,9 @@
     },
     {
       "carName": "Chevrolet Tahoe",
+      "brand": "Honda",
       "modelYear": 2023,
-      "sellQuantity": 600,
+      "totalSits": 4,
       "fuelType": "Gasoline",
       "carImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2022_Chevrolet_Tahoe_RST%2C_front_3.7.22.jpg/1200px-2022_Chevrolet_Tahoe_RST%2C_front_3.7.22.jpg",
       "mileage": "18 mpg",
@@ -50,7 +54,8 @@
     {
       "carName": "Nissan Rogue",
       "modelYear": 2023,
-      "sellQuantity": 1000,
+      "brand": "Toyota",
+      "totalSits": 6,
       "fuelType": "Gasoline",
       "carImage": "https://www.motortrend.com/uploads/2023/02/2023-Nissan-Rogue-Platinum-AWD-17-e1677257988258.jpg?fit=around%7C875:492.1875",
       "mileage": "30 mpg",
@@ -61,8 +66,9 @@
     },
     {
       "carName": "Tesla Model 3",
+      "brand": "Tesla",
       "modelYear": 2023,
-      "sellQuantity": 300,
+      "totalSits": 6,
       "fuelType": "Electric",
       "carImage": "https://media.ed.edmunds-media.com/tesla/model-3/2022/oem/2022_tesla_model-3_sedan_performance_fq_oem_1_1600.jpg",
       "mileage": "250 miles (EPA est.)",
@@ -73,8 +79,9 @@
     },
     {
       "carName": "Subaru Outback",
+      "brand": "Honda",
       "modelYear": 2023,
-      "sellQuantity": 700,
+      "totalSits": 4,
       "fuelType": "Gasoline",
       "carImage": "https://s7d1.scene7.com/is/image/scom/RDI_UAT_360e_032?$750p$",
       "mileage": "26 mpg",
@@ -85,8 +92,9 @@
     },
     {
       "carName": "BMW 3 Series",
+      "brand": "BMW",
       "modelYear": 2023,
-      "sellQuantity": 400,
+      "totalSits": 6,
       "fuelType": "Gasoline",
       "carImage": "https://media.ed.edmunds-media.com/bmw/3-series/2023/oem/2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1600.jpg",
       "mileage": "30 mpg",
@@ -97,8 +105,9 @@
     },
     {
       "carName": "Audi Q5",
+      "brand": "Audi",
       "modelYear": 2023,
-      "sellQuantity": 500,
+      "totalSits": 4,
       "fuelType": "Gasoline",
       "carImage": "https://pictures.dealer.com/generic-aoa-OEM_VIN_STOCK_PHOTOS/39104cc7a83c85c311baaaff27e45159.jpg",
       "mileage": "27 mpg",
@@ -109,8 +118,9 @@
     },
     {
       "carName": "Jeep Wrangler",
+      "brand": "Honda",
       "modelYear": 2023,
-      "sellQuantity": 900,
+      "totalSits": 6,
       "fuelType": "Gasoline",
       "carImage": "https://cdn.motor1.com/images/mgl/Oov0YM/s1/2022-jeep-wrangler-4xe-europe.jpg",
       "mileage": "20 mpg",

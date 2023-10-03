@@ -2,7 +2,7 @@ import { FaUserFriends, FaTachometerAlt, FaGasPump, FaFutbol } from "react-icons
 
 const CarCart = ({ car }) => {
     const { carImage, carName, drivingMode, fuelType, mileage, modelYear,
-        price, sellQuantity } = car;
+        price, totalSits } = car;
 
     return (
         <div className="rounded-2xl overflow-hidden shadow-xl bg-[#F1F4FB]" >
@@ -27,7 +27,7 @@ const CarCart = ({ car }) => {
                     </div>
                     <div className="flex space-x-2 items-center text-xl font-semibold">
                         <FaUserFriends className="text-[#3B82F6]"></FaUserFriends>
-                        <p>{sellQuantity}</p>
+                        <p>{totalSits}</p>
                     </div>
                 </div>
             </div>
